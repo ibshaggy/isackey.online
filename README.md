@@ -1,1 +1,2 @@
 # learngit
+updaing the readme
