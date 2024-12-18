@@ -1141,6 +1141,28 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
+.social-links {
+    display: flex; /* Align items side by side */
+    justify-content: center; /* Center the icons horizontally */
+    gap: 15px; /* Add spacing between the icons */
+}
+
+.social-links a {
+    font-size: 24px; /* Increase icon size */
+    color: #333; /* Default color for icons */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.social-links a:hover {
+    color: #0077b5; /* Change icon color on hover (e.g., LinkedIn blue) */
+}
+
+.text-center {
+    text-align: center; /* Ensure alignment stays centered */
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
